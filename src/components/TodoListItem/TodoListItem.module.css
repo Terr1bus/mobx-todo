@@ -1,0 +1,19 @@
+.todo-item {
+  padding: 5px;
+  cursor: pointer;
+  color: #3c3c3c;
+  padding: 10px 10%;
+  font-size: 18px;
+}
+
+.todo-item:not(:last-child) {
+  border-bottom: 1px solid #adadad;
+}
+
+.todo-item_completed {
+  font-style: italic;
+  text-decoration: line-through;
+}
+
+.todo-item__title {
+}

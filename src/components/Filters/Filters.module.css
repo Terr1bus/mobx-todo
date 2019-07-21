@@ -1,0 +1,30 @@
+.filters {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 10px 20%;
+  border-top: 1px solid #adadad;
+  box-sizing: border-box;
+}
+
+.filter {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  color: blue;
+  background: inherit;
+  border-bottom: 1px dashed blue;
+}
+
+.filter:hover {
+  color: #111;
+}
+
+.filter_active {
+  cursor: default;
+  color: #111;
+  border-bottom: 0;
+}
